@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --clr-primary:#F94DD4;
+    --clr-secondary:#560bad;
+}
+body{
+    font-family: "Raleway", sans-serif !important;
+   
+}
+.navbar
+{
+    /*background-image: repeating-linear-gradient(203deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(248deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(158deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(293deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(248deg, rgb(41, 27, 158),rgb(249, 77, 212));*/
+    background-image: radial-gradient(circle at 77% 87%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 82% 51%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 66% 64%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 23% 23%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 70% 29%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 11% 93%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 5%,transparent 5%, transparent 100%),linear-gradient(135deg, rgb(222, 148, 235),rgb(92, 87, 253));
+}
+.nav-link{
+    /*color:white !important;*/
+    font-weight:bold !important;
+    font-size:1rem !important;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color:#F94DD4 !important;
+    color:black !important;
+
+}
+.btn-primary:hover{
+    background-color:#F94DD4 !important;
+    border:none;
+}
+.navbar-toggler{
+    background-color:#F94DD4 !important;
+
+}
+.btn-discover{
+    background-color:#F94DD4 !important;
+    border:none;
+    color:black !important;
+    font-weight:bold !important;
+}
+.btn-discover:hover{
+    background-color:#560bad !important;
+    border:none;
+    color:white !important;
+    font-weight:bold !important;
+}
+.text-dis{
+    color:#F94DD4 !important;
+   
+}
+.text-cover{
+    color:#560bad !important;
+}
+.card-title{
+    color:#F94DD4 !important;
+}
+.card-text{
+    color:#560bad !important;
+}
+.card-img-top:hover{
+    zoom:300% !important;
+}
